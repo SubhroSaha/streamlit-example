@@ -47,7 +47,7 @@ Created on Sun Jan 28 23:13:34 2024
 @author: Subhro Saha
 """
 
-import MetaTrader5 as mt
+# import MetaTrader5 as mt
 from datetime import datetime
 import pandas as pd, numpy as np
 from backtesting import Backtest, Strategy
@@ -58,7 +58,7 @@ import backtesting
 backtesting.set_bokeh_output(notebook=False)
 from backtesting.lib import plot_heatmaps
 import yfinance as yf
-import heikinAishi
+# import heikinAishi
 import seaborn as sns
 import datetime as dt
 import tickers as tk
